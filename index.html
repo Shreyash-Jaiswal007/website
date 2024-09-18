@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Bookstore</h1>
+        <nav>
+            <ul>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="books">
+            <h2>Available Books</h2>
+            <div class="book" id="book1">
+                <h3>Book Title 1</h3>
+                <p>Author: Author Name 1</p>
+                <p>Price: $10</p>
+                <button onclick="addToCart('Book Title 1')">Add to Cart</button>
+            </div>
+            <div class="book" id="book2">
+                <h3>Book Title 2</h3>
+                <p>Author: Author Name 2</p>
+                <p>Price: $15</p>
+                <button onclick="addToCart('Book Title 2')">Add to Cart</button>
+            </div>
+            <!-- Add more books as needed -->
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to our online bookstore. We offer a wide variety of books for all ages.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@onlinebookstore.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Bookstore</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
